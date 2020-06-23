@@ -11,6 +11,6 @@ newObj // {}
 obj // { foo: 'bar' }
 
 function updateObjectWithKeyAndValue(object, key, value){
-  return obj
-  return Object.assign({}, obj, )
+  return object
+  return Object.assign({}, object, { [key]: value })
 }
